@@ -1,0 +1,236 @@
+[
+    {
+    "collegeImage": "https://example.com/college1.jpg",
+    "collegeName": "ABC College of Engineering",
+    "admissionDates": "September 1 - September 15",
+    "events": ["Annual Fest", "Tech Expo", "Cultural Week"],
+    "researchHistory": "Established in 1995, ABC College has a rich history of groundbreaking research.",
+    "sports": ["Football", "Basketball", "Badminton", "Cricket"],
+    "admissionProcess": "Interested candidates must apply online and clear an entrance exam.",
+    "eventsDetails": {
+      "Annual Fest": "The Annual Fest is a grand celebration of culture and talent, attracting participants from across the country.",
+      "Tech Expo": "Tech Expo is a showcase of innovative projects and ideas by the students and faculty.",
+      "Cultural Week": "Cultural Week features a variety of performances, workshops, and competitions celebrating diversity and creativity."
+    },
+    "researchWorks": {
+      "Project 1": "Development of a sustainable water purification system",
+      "Project 2": "Advancements in renewable energy technologies",
+      "Project 3": "Artificial Intelligence for medical diagnosis"
+    },
+    "sportsCategories": {
+      "Football": "Men's and Women's teams, Regular tournaments and inter-college matches.",
+      "Basketball": "State-of-the-art indoor court and coaching facilities.",
+      "Badminton": "Multiple courts with a competitive training program.",
+      "Cricket": "Full-fledged cricket ground and participation in inter-university leagues."
+    },
+    "review": "ABC College provides an excellent academic environment, a plethora of extracurricular activities, and supportive faculty."
+  },
+  {
+    "collegeImage": "https://example.com/college2.jpg",
+    "collegeName": "XYZ Medical College",
+    "admissionDates": "August 1 - August 30",
+    "events": ["Medical Symposium", "Health Camps", "Research Expo"],
+    "researchHistory": "Established in 1950, XYZ Medical College has been at the forefront of medical research.",
+    "sports": ["Tennis", "Swimming", "Volleyball", "Athletics"],
+    "admissionProcess": "Admission to the medical programs is through a national level entrance exam.",
+    "eventsDetails": {
+      "Medical Symposium": "A platform for medical professionals to discuss the latest advancements in the field.",
+      "Health Camps": "Regular health camps are organized for the local community's benefit.",
+      "Research Expo": "An exhibition showcasing research findings and breakthroughs by the medical faculty and students."
+    },
+    "researchWorks": {
+      "Project 1": "Study on the effectiveness of a new drug for a rare disease.",
+      "Project 2": "Understanding the genetic basis of certain inherited disorders.",
+      "Project 3": "Investigating the impact of environmental factors on public health."
+    },
+    "sportsCategories": {
+      "Tennis": "Professional coaching and participation in inter-college tournaments.",
+      "Swimming": "Olympic-sized swimming pool and training by experienced coaches.",
+      "Volleyball": "Well-maintained courts for practice and competitions.",
+      "Athletics": "Track and field events training and representation in state-level championships."
+    },
+    "review": "XYZ Medical College offers world-class medical education and facilities, producing skilled and compassionate healthcare professionals."
+  },
+  {
+    "collegeImage": "https://example.com/college3.jpg",
+    "collegeName": "PQR Arts and Commerce College",
+    "admissionDates": "June 15 - July 15",
+    "events": ["Literary Fest", "Business Summit", "Fine Arts Exhibition"],
+    "researchHistory": "PQR College has a legacy of promoting arts, culture, and commerce since 1970.",
+    "sports": ["Table Tennis", "Chess", "Kabaddi", "Yoga"],
+    "admissionProcess": "Admission to various courses is based on merit and interviews.",
+    "eventsDetails": {
+      "Literary Fest": "A celebration of literature, poetry, and creative writing, featuring renowned authors.",
+      "Business Summit": "An event that brings together industry experts and students to discuss business trends.",
+      "Fine Arts Exhibition": "An exhibition showcasing the artistic talents of the students and faculty."
+    },
+    "researchWorks": {
+      "Project 1": "Impact of social media on consumer behavior.",
+      "Project 2": "Analysis of economic reforms and their implications.",
+      "Project 3": "Exploring the influence of art in therapy and mental well-being."
+    },
+    "sportsCategories": {
+      "Table Tennis": "Regular intra-college tournaments and coaching for enthusiasts.",
+      "Chess": "Chess club for students to improve their skills and participate in competitions.",
+      "Kabaddi": "Inter-college kabaddi matches and coaching by experienced players.",
+      "Yoga": "Yoga sessions for stress relief and overall well-being."
+    },
+    "review": "PQR Arts and Commerce College provides a nurturing environment for arts and commerce students, encouraging creativity and holistic development."
+  },
+  {
+    "collegeImage": "https://example.com/college4.jpg",
+    "collegeName": "LMN College of Science",
+    "admissionDates": "July 10 - July 31",
+    "events": ["Science Fair", "Guest Lectures", "Lab Workshops"],
+    "researchHistory": "LMN College is renowned for its contributions to scientific research since 1985.",
+    "sports": ["Basketball", "Swimming", "Table Tennis", "Athletics"],
+    "admissionProcess": "Admission to science programs is based on entrance exam scores and interviews.",
+    "eventsDetails": {
+      "Science Fair": "An exhibition showcasing innovative science projects by students from various disciplines.",
+      "Guest Lectures": "Eminent scientists and researchers are invited to deliver inspiring talks and share knowledge.",
+      "Lab Workshops": "Hands-on workshops in state-of-the-art laboratories to enhance practical skills."
+    },
+    "researchWorks": {
+      "Project 1": "Study of biodiversity in local ecosystems.",
+      "Project 2": "Exploring the potential of nanotechnology in medical applications.",
+      "Project 3": "Investigating the effects of climate change on plant species."
+    },
+    "sportsCategories": {
+      "Basketball": "Regular practice and participation in inter-college tournaments.",
+      "Swimming": "Training by certified coaches and competitions at district and state levels.",
+      "Table Tennis": "Intra-college tournaments and coaching for enthusiasts.",
+      "Athletics": "Track and field events training with representation in university-level competitions."
+    },
+    "review": "LMN College of Science offers exceptional scientific education and research opportunities, shaping future leaders in the field."
+  },
+  {
+    "collegeImage": "https://example.com/college5.jpg",
+    "collegeName": "EFG Law School",
+    "admissionDates": "April 15 - May 15",
+    "events": ["Moot Court Competitions", "Legal Seminars", "Internship Fair"],
+    "researchHistory": "EFG Law School has a prestigious reputation for legal education and research since 1978.",
+    "sports": ["Cricket", "Football", "Basketball", "Debate"],
+    "admissionProcess": "Admission to law programs is based on a national-level entrance exam and personal interview.",
+    "eventsDetails": {
+      "Moot Court Competitions": "Simulated court proceedings to enhance students' advocacy and legal skills.",
+      "Legal Seminars": "Renowned legal professionals deliver talks on emerging legal issues.",
+      "Internship Fair": "A platform for students to connect with law firms and gain practical experience."
+    },
+    "researchWorks": {
+      "Project 1": "Analysis of landmark judgments and their impact on society.",
+      "Project 2": "Study on the effectiveness of intellectual property laws in the digital age.",
+      "Project 3": "Exploring the legal aspects of emerging technologies like blockchain and AI."
+    },
+    "sportsCategories": {
+      "Cricket": "Compete in inter-college tournaments and practice at college grounds.",
+      "Football": "Men's and Women's teams with regular matches and coaching.",
+      "Basketball": "Intra-college tournaments and access to the college's basketball court.",
+      "Debate": "Participate in debate competitions and improve public speaking skills."
+    },
+    "review": "EFG Law School provides an excellent legal education with practical exposure, preparing students for successful careers in law."
+  },
+  {
+    "collegeImage": "https://example.com/college6.jpg",
+    "collegeName": "UVW School of Fine Arts",
+    "admissionDates": "March 1 - March 30",
+    "events": ["Art Exhibitions", "Workshops", "Artistic Retreats"],
+    "researchHistory": "UVW School is a leading institute for fine arts education and creativity since 1960.",
+    "sports": ["Yoga", "Meditation", "Paintball", "Hiking"],
+    "admissionProcess": "Admission to fine arts programs is based on portfolio evaluation and interviews.",
+    "eventsDetails": {
+      "Art Exhibitions": "Showcasing the masterpieces of students and faculty, open to the public.",
+      "Workshops": "Various art forms and techniques are taught by renowned artists.",
+      "Artistic Retreats": "Retreats to inspiring locations for immersive art experiences."
+    },
+    "researchWorks": {
+      "Project 1": "Exploring the fusion of traditional and contemporary art forms.",
+      "Project 2": "Study on the portrayal of social issues through art.",
+      "Project 3": "Experimenting with innovative materials and mediums in art creation."
+    },
+    "sportsCategories": {
+      "Yoga": "Daily yoga sessions to enhance creativity and focus.",
+      "Meditation": "Guided meditation for relaxation and mental clarity.",
+      "Paintball": "Recreational activity for students to unwind and bond.",
+      "Hiking": "Organized hikes to scenic locations for artistic inspiration."
+    },
+    "review": "UVW School of Fine Arts provides a nurturing environment for artists to explore their creativity and develop their skills."
+  },
+   {
+    "collegeImage": "https://example.com/college7.jpg",
+    "collegeName": "RST School of Medicine",
+    "admissionDates": "January 20 - February 15",
+    "events": ["Medical Camps", "Health Conferences", "Research Symposium"],
+    "researchHistory": "RST School is dedicated to advancing medical research and healthcare since 1990.",
+    "sports": ["Tennis", "Swimming", "Volleyball", "Yoga"],
+    "admissionProcess": "Admission to the medical programs is through a rigorous entrance exam and interview.",
+    "eventsDetails": {
+      "Medical Camps": "Free health camps organized for underserved communities.",
+      "Health Conferences": "Conferences on public health challenges and solutions.",
+      "Research Symposium": "A platform for presenting cutting-edge medical research findings."
+    },
+    "researchWorks": {
+      "Project 1": "Study on the prevalence of non-communicable diseases in urban areas.",
+      "Project 2": "Investigation of innovative surgical techniques for complex cases.",
+      "Project 3": "Exploring the role of genetics in personalized medicine."
+    },
+    "sportsCategories": {
+      "Tennis": "Coaching and practice facilities for students interested in tennis.",
+      "Swimming": "Training in a well-maintained swimming pool with certified coaches.",
+      "Volleyball": "Intra-college and inter-college tournaments for volleyball enthusiasts.",
+      "Yoga": "Yoga classes to promote physical and mental well-being."
+    },
+    "review": "RST School of Medicine is committed to producing skilled medical professionals with a focus on research and community health."
+  },
+  {
+    "collegeImage": "https://example.com/college8.jpg",
+    "collegeName": "GHI Institute of Technology",
+    "admissionDates": "August 5 - September 5",
+    "events": ["Tech Symposium", "Hackathons", "Guest Lectures"],
+    "researchHistory": "GHI Institute is a pioneer in technological innovations since 1982.",
+    "sports": ["Football", "Cricket", "Table Tennis", "Athletics"],
+    "admissionProcess": "Admission to technology programs is based on entrance exam scores and interviews.",
+    "eventsDetails": {
+      "Tech Symposium": "A showcase of innovative tech projects and presentations.",
+      "Hackathons": "Intense coding competitions to solve real-world challenges.",
+      "Guest Lectures": "Industry experts share insights and advancements in technology."
+    },
+    "researchWorks": {
+      "Project 1": "Development of smart city solutions using IoT.",
+      "Project 2": "Investigation of AI applications in healthcare.",
+      "Project 3": "Exploring renewable energy sources for sustainable technology."
+    },
+    "sportsCategories": {
+      "Football": "Men's and Women's teams for football enthusiasts.",
+      "Cricket": "Inter-college cricket matches and practice facilities.",
+      "Table Tennis": "Intra-college tournaments and coaching for table tennis enthusiasts.",
+      "Athletics": "Training for track and field events with representation in inter-college meets."
+    },
+    "review": "GHI Institute of Technology equips students with cutting-edge technological skills, preparing them for successful careers in the industry."
+  },
+  {
+    "collegeImage": "https://example.com/college9.jpg",
+    "collegeName": "JKL School of Journalism",
+    "admissionDates": "May 25 - June 30",
+    "events": ["Media Fest", "Journalism Workshops", "Press Conferences"],
+    "researchHistory": "JKL School is renowned for producing exceptional journalists and media professionals since 1975.",
+    "sports": ["Basketball", "Football", "Cricket", "Debates"],
+    "admissionProcess": "Admission to journalism programs involves a written test and interview.",
+    "eventsDetails": {
+      "Media Fest": "A celebration of creativity in media with film screenings, photography exhibitions, and more.",
+      "Journalism Workshops": "Practical workshops on various aspects of journalism and media production.",
+      "Press Conferences": "Simulated press conferences to enhance reporting and interviewing skills."
+    },
+    "researchWorks": {
+      "Project 1": "Investigative report on a major social issue.",
+      "Project 2": "Study on the impact of digital media on traditional journalism.",
+      "Project 3": "Exploring ethical challenges in reporting sensitive topics."
+    },
+    "sportsCategories": {
+      "Basketball": "Regular practice and participation in inter-college tournaments.",
+      "Football": "Inter-college football matches and coaching facilities.",
+      "Cricket": "Cricket matches and practice sessions for cricket enthusiasts.",
+      "Debates": "Participate in debate competitions and improve communication skills."
+    },
+    "review": "JKL School of Journalism offers top-notch media education, producing journalists with a commitment to truth and journalistic integrity."
+  }
+]
