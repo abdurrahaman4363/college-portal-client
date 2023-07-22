@@ -1,7 +1,7 @@
 [
-    {
-    "collegeImage": "https://example.com/college1.jpg",
-    "collegeName": "ABC College of Engineering",
+  {
+    "collegeImage": "https://i.postimg.cc/rwQ4ZGXK/pexels-pixabay-207684.jpg",
+    "collegeName": "Ontario Business College",
     "admissionDates": "September 1 - September 15",
     "events": ["Annual Fest", "Tech Expo", "Cultural Week"],
     "researchHistory": "Established in 1995, ABC College has a rich history of groundbreaking research.",
@@ -23,11 +23,13 @@
       "Badminton": "Multiple courts with a competitive training program.",
       "Cricket": "Full-fledged cricket ground and participation in inter-university leagues."
     },
-    "review": "ABC College provides an excellent academic environment, a plethora of extracurricular activities, and supportive faculty."
+    "review": "ABC College provides an excellent academic environment, a plethora of extracurricular activities, and supportive faculty.",
+    "rating": 4.8,
+    "researchPaperLinks": ["https://example.com/research-paper-1", "https://example.com/research-paper-2", "https://example.com/research-paper-3"]
   },
   {
-    "collegeImage": "https://example.com/college2.jpg",
-    "collegeName": "XYZ Medical College",
+    "collegeImage": "https://i.postimg.cc/1XBb94Dz/pexels-matthis-volquardsen-2305098.jpg",
+    "collegeName": "Maplewood Institute of Technology",
     "admissionDates": "August 1 - August 30",
     "events": ["Medical Symposium", "Health Camps", "Research Expo"],
     "researchHistory": "Established in 1950, XYZ Medical College has been at the forefront of medical research.",
@@ -49,11 +51,13 @@
       "Volleyball": "Well-maintained courts for practice and competitions.",
       "Athletics": "Track and field events training and representation in state-level championships."
     },
-    "review": "XYZ Medical College offers world-class medical education and facilities, producing skilled and compassionate healthcare professionals."
+    "review": "XYZ Medical College offers world-class medical education and facilities, producing skilled and compassionate healthcare professionals.",
+    "rating": 4.9,
+    "researchPaperLinks": ["https://example.com/research-paper-4", "https://example.com/research-paper-5", "https://example.com/research-paper-6"]
   },
   {
-    "collegeImage": "https://example.com/college3.jpg",
-    "collegeName": "PQR Arts and Commerce College",
+    "collegeImage": "https://i.postimg.cc/k4xkpT4K/pexels-george-pak-7972661.jpg",
+    "collegeName": "Northern University College",
     "admissionDates": "June 15 - July 15",
     "events": ["Literary Fest", "Business Summit", "Fine Arts Exhibition"],
     "researchHistory": "PQR College has a legacy of promoting arts, culture, and commerce since 1970.",
@@ -75,11 +79,13 @@
       "Kabaddi": "Inter-college kabaddi matches and coaching by experienced players.",
       "Yoga": "Yoga sessions for stress relief and overall well-being."
     },
-    "review": "PQR Arts and Commerce College provides a nurturing environment for arts and commerce students, encouraging creativity and holistic development."
+    "review": "PQR Arts and Commerce College provides a nurturing environment for arts and commerce students, encouraging creativity and holistic development.",
+    "rating": 4.6,
+    "researchPaperLinks": ["https://example.com/research-paper-7", "https://example.com/research-paper-8", "https://example.com/research-paper-9"]
   },
   {
-    "collegeImage": "https://example.com/college4.jpg",
-    "collegeName": "LMN College of Science",
+    "collegeImage": "https://i.postimg.cc/L4PXHSq3/pexels-pixabay-247823.jpg",
+    "collegeName": "Pacific Coast Community College",
     "admissionDates": "July 10 - July 31",
     "events": ["Science Fair", "Guest Lectures", "Lab Workshops"],
     "researchHistory": "LMN College is renowned for its contributions to scientific research since 1985.",
@@ -101,11 +107,13 @@
       "Table Tennis": "Intra-college tournaments and coaching for enthusiasts.",
       "Athletics": "Track and field events training with representation in university-level competitions."
     },
-    "review": "LMN College of Science offers exceptional scientific education and research opportunities, shaping future leaders in the field."
+    "review": "LMN College of Science offers exceptional scientific education and research opportunities, shaping future leaders in the field.",
+    "rating": 4.7,
+    "researchPaperLinks": ["https://example.com/research-paper-10", "https://example.com/research-paper-11", "https://example.com/research-paper-12"]
   },
   {
-    "collegeImage": "https://example.com/college5.jpg",
-    "collegeName": "EFG Law School",
+    "collegeImage": "https://i.postimg.cc/FHzXHbWX/pexels-george-pak-7972512.jpg",
+    "collegeName": "Rocky Mountain Art Academy",
     "admissionDates": "April 15 - May 15",
     "events": ["Moot Court Competitions", "Legal Seminars", "Internship Fair"],
     "researchHistory": "EFG Law School has a prestigious reputation for legal education and research since 1978.",
@@ -127,11 +135,13 @@
       "Basketball": "Intra-college tournaments and access to the college's basketball court.",
       "Debate": "Participate in debate competitions and improve public speaking skills."
     },
-    "review": "EFG Law School provides an excellent legal education with practical exposure, preparing students for successful careers in law."
+    "review": "EFG Law School provides an excellent legal education with practical exposure, preparing students for successful careers in law.",
+    "rating": 4.9,
+    "researchPaperLinks": ["https://example.com/research-paper-13", "https://example.com/research-paper-14", "https://example.com/research-paper-15"]
   },
   {
-    "collegeImage": "https://example.com/college6.jpg",
-    "collegeName": "UVW School of Fine Arts",
+    "collegeImage": "https://i.postimg.cc/pXkyP20S/pexels-pixabay-159775.jpg",
+    "collegeName": "Atlantic Maritime Institute",
     "admissionDates": "March 1 - March 30",
     "events": ["Art Exhibitions", "Workshops", "Artistic Retreats"],
     "researchHistory": "UVW School is a leading institute for fine arts education and creativity since 1960.",
@@ -153,11 +163,13 @@
       "Paintball": "Recreational activity for students to unwind and bond.",
       "Hiking": "Organized hikes to scenic locations for artistic inspiration."
     },
-    "review": "UVW School of Fine Arts provides a nurturing environment for artists to explore their creativity and develop their skills."
+    "review": "UVW School of Fine Arts provides a nurturing environment for artists to explore their creativity and develop their skills.",
+    "rating": 4.7,
+    "researchPaperLinks": ["https://example.com/research-paper-16", "https://example.com/research-paper-17", "https://example.com/research-paper-18"]
   },
-   {
-    "collegeImage": "https://example.com/college7.jpg",
-    "collegeName": "RST School of Medicine",
+  {
+    "collegeImage": "https://i.postimg.cc/SN5DcWQh/pexels-si-luan-pham-8381617.jpg",
+    "collegeName": "Prairie Plains College of Agriculture",
     "admissionDates": "January 20 - February 15",
     "events": ["Medical Camps", "Health Conferences", "Research Symposium"],
     "researchHistory": "RST School is dedicated to advancing medical research and healthcare since 1990.",
@@ -179,11 +191,13 @@
       "Volleyball": "Intra-college and inter-college tournaments for volleyball enthusiasts.",
       "Yoga": "Yoga classes to promote physical and mental well-being."
     },
-    "review": "RST School of Medicine is committed to producing skilled medical professionals with a focus on research and community health."
+    "review": "RST School of Medicine is committed to producing skilled medical professionals with a focus on research and community health.",
+    "rating": 4.6,
+    "researchPaperLinks": ["https://example.com/research-paper-19", "https://example.com/research-paper-20", "https://example.com/research-paper-21"]
   },
   {
-    "collegeImage": "https://example.com/college8.jpg",
-    "collegeName": "GHI Institute of Technology",
+    "collegeImage": "https://i.postimg.cc/dQNBK8yy/pexels-george-pak-7972506.jpg",
+    "collegeName": "Quebec Culinary Arts Institute",
     "admissionDates": "August 5 - September 5",
     "events": ["Tech Symposium", "Hackathons", "Guest Lectures"],
     "researchHistory": "GHI Institute is a pioneer in technological innovations since 1982.",
@@ -205,11 +219,13 @@
       "Table Tennis": "Intra-college tournaments and coaching for table tennis enthusiasts.",
       "Athletics": "Training for track and field events with representation in inter-college meets."
     },
-    "review": "GHI Institute of Technology equips students with cutting-edge technological skills, preparing them for successful careers in the industry."
+    "review": "GHI Institute of Technology equips students with cutting-edge technological skills, preparing them for successful careers in the industry.",
+    "rating": 4.8,
+    "researchPaperLinks": ["https://example.com/research-paper-22", "https://example.com/research-paper-23", "https://example.com/research-paper-24"]
   },
   {
-    "collegeImage": "https://example.com/college9.jpg",
-    "collegeName": "JKL School of Journalism",
+    "collegeImage": "https://i.postimg.cc/pT2ZPCCD/pexels-pixabay-207729.jpg",
+    "collegeName": "Vancouver Film and Media College",
     "admissionDates": "May 25 - June 30",
     "events": ["Media Fest", "Journalism Workshops", "Press Conferences"],
     "researchHistory": "JKL School is renowned for producing exceptional journalists and media professionals since 1975.",
@@ -231,6 +247,9 @@
       "Cricket": "Cricket matches and practice sessions for cricket enthusiasts.",
       "Debates": "Participate in debate competitions and improve communication skills."
     },
-    "review": "JKL School of Journalism offers top-notch media education, producing journalists with a commitment to truth and journalistic integrity."
+    "review": "JKL School of Journalism offers top-notch media education, producing journalists with a commitment to truth and journalistic integrity.",
+    "rating": 4.9,
+    "researchPaperLinks": ["https://example.com/research-paper-25", "https://example.com/research-paper-26", "https://example.com/research-paper-27"]
   }
 ]
+

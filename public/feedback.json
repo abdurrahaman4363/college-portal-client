@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Jane Doe",
+        "rating": 3,
+        "collegeFeedback": "Supportive faculty and diverse courses, but the infrastructure needs improvement. Decent college overall, with potential for growth and development."
+    },
+    {
+        "name": "John Doe",
+        "rating": 2,
+        "collegeFeedback": "Disappointing infrastructure and limited industry exposure. The college requires significant improvements to achieve top-notch institution status."
+    },
+    {
+        "name": "MJ Doe",
+        "rating": 5,
+        "collegeFeedback": "Outstanding experience with highly experienced faculty and excellent facilities. The college provides a nurturing environment for personal and academic growth."
+    },
+    {
+        "name": "Sarah Smith",
+        "rating": 4,
+        "collegeFeedback": "Incredibly useful and easy to use. The college offers a diverse range of courses and engaging extracurricular activities for holistic development."
+    },
+    {
+        "name": "Robert Johnson",
+        "rating": 5,
+        "collegeFeedback": "Impressed with top-notch services and outstanding customer support. The college provides valuable industry connections and internship opportunities."
+    },
+    {
+        "name": "Emily Williams",
+        "rating": 4,
+        "collegeFeedback": "Enriching campus life with supportive faculty and an inclusive environment. The college could improve facilities but offers ample growth opportunities."
+    },
+    {
+        "name": "Michael Brown",
+        "rating": 3,
+        "collegeFeedback": "Good academic environment, but the college needs to provide more research opportunities and strengthen industry connections for practical exposure."
+    },
+    {
+        "name": "Sophia Miller",
+        "rating": 5,
+        "collegeFeedback": "Amazing experience with exceptional professors and state-of-the-art facilities. The college offers engaging extracurricular activities and a transformative education."
+    },
+    {
+        "name": "William Davis",
+        "rating": 4,
+        "collegeFeedback": "Positive experience with beneficial industry connections and supportive faculty. Encourage course expansions and collaborations with industries for hands-on learning."
+    }
+]
