@@ -12,13 +12,13 @@ const Navbar = () => {
         .catch(error => console.log(error.message))
     }
     const navItem = <>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/">Colleges</Link></li>
-        <li><Link to="/">Admission</Link></li>
-        <li><Link to="/">My College</Link></li>
+        <li className="font-bold uppercase"><Link to="/">Home</Link></li>
+        <li className="font-bold uppercase"><Link to="/">Colleges</Link></li>
+        <li className="font-bold uppercase"><Link to="/">Admission</Link></li>
+        <li className="font-bold uppercase"><Link to="/">My College</Link></li>
     </>
   return (
-    <div className="navbar bg-base-100">
+    <div className="fixed z-10 bg-opacity-30 bg-black navbar text-white max-w-6xl">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -44,7 +44,7 @@ const Navbar = () => {
             {navItem}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a className="btn btn-ghost normal-case text-3xl">College Portal</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
