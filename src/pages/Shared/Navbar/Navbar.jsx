@@ -13,8 +13,8 @@ const Navbar = () => {
     }
     const navItem = <>
         <li className="font-bold uppercase"><Link to="/">Home</Link></li>
-        <li className="font-bold uppercase"><Link to="/">Colleges</Link></li>
-        <li className="font-bold uppercase"><Link to="/">Admission</Link></li>
+        <li className="font-bold uppercase"><Link to="/college">Colleges</Link></li>
+        <li className="font-bold uppercase"><Link to="/admission">Admission</Link></li>
         <li className="font-bold uppercase"><Link to="/">My College</Link></li>
     </>
   return (
