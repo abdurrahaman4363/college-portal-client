@@ -1,8 +1,9 @@
 import { Rating } from "@smastrom/react-rating";
+import { Link } from "react-router-dom";
 
 
 const AllCollegeDisplay = ({ college }) => {
-  const { collegeImage, collegeName, admissionDates, rating, researchPaperLinks } = college;
+  const { _id, collegeImage, collegeName, admissionDates, rating, researchPaperLinks } = college;
   return (
         
         <div className="card w-86 bg-base-100 shadow-xl">
@@ -27,7 +28,7 @@ const AllCollegeDisplay = ({ college }) => {
           </p>
         <div className="card-actions justify-end">
         
-          <button className="btn btn-primary">Details</button>
+          <Link to={`/collegefacility/${_id}`}><button className="btn btn-primary">Details</button></Link>
         </div>
       </div>
     </div>

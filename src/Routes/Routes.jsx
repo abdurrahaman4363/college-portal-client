@@ -8,6 +8,7 @@ import Admission from "../pages/Admission/Admission/Admission";
 import AdmissionForm from "../pages/Admission/AdmissionForm/AdmissionForm";
 import Error from "../pages/Error/Error";
 import CollegeDetails from "../pages/Home/CollegeDetails/CollegeDetails";
+import CollegeFacility from "../pages/College/CollegeFacility/CollegeFacility";
 
 
 
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
         {
           path: '/collegedetails/:id',
           element: <CollegeDetails></CollegeDetails>,
+          loader: ({params})=>fetch(`https://college-services-server.vercel.app/college/${params.id}`)
+        },
+        {
+          path: '/collegefacility/:id',
+          element: <CollegeFacility></CollegeFacility>,
           loader: ({params})=>fetch(`https://college-services-server.vercel.app/college/${params.id}`)
         },
         {
