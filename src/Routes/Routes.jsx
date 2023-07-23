@@ -5,6 +5,11 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import College from "../pages/College/College/College";
 import Admission from "../pages/Admission/Admission/Admission";
+import AdmissionForm from "../pages/Admission/AdmissionForm/AdmissionForm";
+import Error from "../pages/Error/Error";
+import CollegeDetails from "../pages/Home/CollegeDetails/CollegeDetails";
+
+
 
 const router = createBrowserRouter([
     {
@@ -28,10 +33,24 @@ const router = createBrowserRouter([
           element: <College></College>
         },
         {
+          path: '/collegedetails/:id',
+          element: <CollegeDetails></CollegeDetails>,
+          loader: ({params})=>fetch(`https://college-services-server.vercel.app/college/${params.id}`)
+        },
+        {
           path: '/admission',
-          element: <Admission></Admission>
+          element: <Admission></Admission>,
+        },
+        {
+          path: '/admissionform/:id',
+          element: <AdmissionForm></AdmissionForm>,
+          loader: ({params})=>fetch(`https://college-services-server.vercel.app/college/${params.id}`)
         }
       ]
     },
+    {
+      path: '/*',
+      element: <Error></Error>
+    }
   ]);
 export default router;

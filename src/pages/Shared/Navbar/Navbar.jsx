@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import { UserContext } from "../../../providers/AuthProvider";
 import { useContext } from "react";
+import Tippy from "@tippyjs/react";
 
 const Navbar = () => {
   const {user, logOut} = useContext(UserContext);
@@ -52,14 +53,14 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-      {/* <div className="mr-4">
+      <div className="mr-4">
       {
             user && 
                   <>
                 <Tippy  content={user.displayName}><img className=" text-white rounded-full" src={user?.photoURL} style={{height: '50px', width: '50px'}}/></Tippy>
             </>
         }
-      </div> */}
+      </div>
         {
           user ? 
           <Link onClick={handleLogOut} className="btn btn-success px-6 text-white border-none">Sign Out</Link> :
