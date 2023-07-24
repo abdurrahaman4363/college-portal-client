@@ -4,11 +4,20 @@ import CollegeCard from "./CollegeCard";
 
 const College = () => {
   const [colleges, setCollege] = useState([]);
+  const [searchText, setSearchText] = useState('');
   useEffect(() => {
     fetch("https://college-services-server.vercel.app/college")
       .then((res) => res.json())
       .then((data) => setCollege(data));
   }, []);
+
+  const handleSearch = () => {
+    fetch(`https://college-services-server.vercel.app/searchcollege/${searchText}`)
+    .then((res) => res.json())
+    .then(data => {
+      setCollege(data);
+    })
+  }
   return (
       <div className="my-8 md:my-12">
         <SectionTitle
@@ -20,6 +29,7 @@ const College = () => {
         <div>
           <div>
             <input
+             onChange={(e) => setSearchText(e.target.value)}
               className="input input-bordered join-item"
               placeholder="College Name"
             />
@@ -27,7 +37,7 @@ const College = () => {
         </div>
         <div className="indicator">
           <span className="indicator-item badge badge-success text-white">Colleges</span>
-          <button className="btn join-item">Search</button>
+          <button onClick={handleSearch} className="btn join-item">Search</button>
         </div>
       </div>
         </div>
