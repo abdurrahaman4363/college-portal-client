@@ -10,6 +10,8 @@ import Error from "../pages/Error/Error";
 import CollegeDetails from "../pages/Home/CollegeDetails/CollegeDetails";
 import CollegeFacility from "../pages/College/CollegeFacility/CollegeFacility";
 import MyCollege from "../pages/MyCollege/MyCollege/MyCollege";
+import PrivateRoute from "./PrivateRoute";
+import UserDetails from "../pages/Home/UserDetails/UserDetails";
 
 
 
@@ -36,12 +38,12 @@ const router = createBrowserRouter([
         },
         {
           path: '/collegedetails/:id',
-          element: <CollegeDetails></CollegeDetails>,
+          element: <PrivateRoute><CollegeDetails></CollegeDetails></PrivateRoute>,
           loader: ({params})=>fetch(`https://college-services-server.vercel.app/college/${params.id}`)
         },
         {
           path: '/collegefacility/:id',
-          element: <CollegeFacility></CollegeFacility>,
+          element: <PrivateRoute><CollegeFacility></CollegeFacility></PrivateRoute>,
           loader: ({params})=>fetch(`https://college-services-server.vercel.app/college/${params.id}`)
         },
         {
@@ -55,7 +57,11 @@ const router = createBrowserRouter([
         },
         {
           path: '/mycollege',
-          element: <MyCollege></MyCollege>
+          element: <PrivateRoute><MyCollege></MyCollege></PrivateRoute>
+        },
+        {
+          path: '/userdetails',
+          element: <UserDetails></UserDetails>
         }
       ]
     },

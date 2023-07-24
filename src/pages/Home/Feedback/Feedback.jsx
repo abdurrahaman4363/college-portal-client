@@ -12,7 +12,7 @@ import { Navigation } from "swiper/modules";
 const Feedback = () => {
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
-      fetch("feedback.json")
+      fetch("https://college-services-server.vercel.app/feedback")
         .then((res) => res.json())
         .then((data) => setReviews(data));
     }, []);

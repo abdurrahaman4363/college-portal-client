@@ -40,12 +40,12 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-success rounded-box w-52"
           >
             {navItem}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-3xl">College Portal</a>
+        <Link to='/' className="btn btn-ghost font-bold text-3xl uppercase">College Portal</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -57,7 +57,7 @@ const Navbar = () => {
       {
             user && 
                   <>
-                <Tippy  content={user.displayName}><img className=" text-white rounded-full" src={user?.photoURL} style={{height: '50px', width: '50px'}}/></Tippy>
+                <Link to='/userdetails'><Tippy  content={user.displayName}><img className=" text-white rounded-full" src={user?.photoURL} style={{height: '50px', width: '50px'}}/></Tippy></Link>
             </>
         }
       </div>

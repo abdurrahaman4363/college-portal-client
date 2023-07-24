@@ -12,12 +12,18 @@ const MyAdmitCollege = () => {
         .then(data => setMyCollege(data))
     },[user])
     return (
-        <div className="grid md:grid-cols-2 gap-4 md:gap-8 pt-28 pb-16 md:pb-24">
+        <div>
+            <div className="w-4/12 text-center mx-auto pt-28">
+            <p className="text-yellow-600 pb-2 italic">--- Look At My favourite College ---</p>
+            <h3 className="text-3xl uppercase border-y-4 py-3">college Information</h3>
+        </div>
+        <div className="grid md:grid-cols-2 gap-4 md:gap-8 pt-12 pb-16 md:pb-24">
             {
                 mycolleges.map(myCollege => <MyAdmitCollegeDisplay
                 key={myCollege._id}
                 myCollege={myCollege}></MyAdmitCollegeDisplay>)
             }
+        </div>
         </div>
     );
 };
