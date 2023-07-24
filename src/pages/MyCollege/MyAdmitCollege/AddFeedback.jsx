@@ -50,8 +50,8 @@ const AddFeedback = () => {
   return (
     <div>
         <SectionTitle heading={'heading'} subHeading={'feedback'}></SectionTitle>
-        <div className="hero p-24  bg-base-200 mb-16">
-      <div className="card w-3/4 mx-auto  shadow-2xl bg-base-100">
+        <div className="hero p-8 md:p-24  bg-base-200 mb-16">
+      <div className="card w-11/12 md:w-3/4  mx-auto  shadow-2xl bg-base-100">
         <form onSubmit={handlerFeedback}>
           <div className="card-body ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

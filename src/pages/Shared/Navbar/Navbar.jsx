@@ -45,7 +45,7 @@ const Navbar = () => {
             {navItem}
           </ul>
         </div>
-        <Link to='/' className="btn btn-ghost font-bold text-3xl uppercase">College Portal</Link>
+        <Link to='/' className="btn btn-ghost font-bold text-lg md:text-3xl  uppercase">College Portal</Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -63,8 +63,8 @@ const Navbar = () => {
       </div>
         {
           user ? 
-          <Link onClick={handleLogOut} className="btn btn-success px-6 text-white border-none">Sign Out</Link> :
-          <Link to='/login' className="btn btn-success px-6 text-white border-none">Login</Link>
+          <Link onClick={handleLogOut} className="btn btn-success px-2 md:px-6 text-white border-none">Sign Out</Link> :
+          <Link to='/login' className="btn btn-success px-2 md:px-6 text-white border-none">Login</Link>
         }
       </div>
     </div>

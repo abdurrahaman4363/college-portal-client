@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const CollegeCard = ({ college }) => {
   const { collegeName, collegeImage, _id, admissionDates, researchHistory, events, sports } = college;
   return (
-    <div className="card w-86 bg-base-100 shadow-xl">
+    <div className="card w-86 bg-base-100 shadow-xl px-4 md:px-0">
       <figure>
         <img
           className="h-[300px] w-full"

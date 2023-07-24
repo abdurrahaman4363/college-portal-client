@@ -6,8 +6,8 @@ const CollegeFacility = () => {
     const {collegeImage, events, collegeName, sports, eventsDetails} = collegefacility;
     return (
         <div className="py-24">
-            <div className="card w-1/2 mx-auto bg-base-100 shadow-xl">
-      <figure className="px-10 pt-10">
+            <div className="card w-11/12 md:w-1/2 mx-auto bg-base-100 shadow-xl">
+      <figure className="md:px-10 pt-10">
         <img
           src={collegeImage}
           style={{ height: "400px", width: '100%' }}

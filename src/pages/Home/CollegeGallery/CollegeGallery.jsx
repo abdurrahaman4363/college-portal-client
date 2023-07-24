@@ -4,7 +4,7 @@ const CollegeGallery = () => {
   return (
     <div className="my-8 md:my-12">
         <SectionTitle heading='Graduated' subHeading="Don't miss the opportunity"></SectionTitle>
-        <div className="grid md:grid-cols-3">
+        <div className="grid md:grid-cols-3 justify-center">
         <img className="h-[280px] w-[385px]" src="https://i.postimg.cc/Xv4k4x7n/pexels-pavel-danilyuk-7944177.jpg" alt="" />
         <img className="h-[280px] w-[385px]" src="https://i.postimg.cc/cHcjdrNb/pexels-gift-habeshaw-5134536.jpg" alt="" />
         <img className="h-[280px] w-[385px]" src="https://i.postimg.cc/Nfnns3WB/pexels-arif-syuhada-5227311.jpg" alt="" />

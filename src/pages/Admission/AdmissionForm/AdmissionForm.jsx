@@ -71,10 +71,10 @@ const AdmissionForm = () => {
         })   
     }
     return (
-        <div className="hero p-24  bg-base-200 ">
-    <div className="card w-3/4 mx-auto  shadow-2xl bg-base-100">
+        <div className="hero py-24 px-4 md:px-24  bg-base-200 ">
+    <div className="card w-11/12 md:w-3/4 mx-auto  shadow-2xl bg-base-100">
       <form onSubmit={handlerAddAddmission}>
-      <h2 className="text-3xl text-success font-bold text-center pt-6">ADMISSION NOW!</h2>
+      <h2 className="text-2xl md:text-3xl text-success font-bold text-center pt-6">ADMISSION NOW!</h2>
       <div className="card-body ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="form-control">
