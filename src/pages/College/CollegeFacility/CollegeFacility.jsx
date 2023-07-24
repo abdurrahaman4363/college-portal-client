@@ -3,7 +3,7 @@ import { useLoaderData } from "react-router-dom";
 
 const CollegeFacility = () => {
     const collegefacility = useLoaderData();
-    const {collegeImage, events, collegeName, rating, admissionProcess, sports, researchWorks, eventsDetails} = collegefacility;
+    const {collegeImage, events, collegeName, sports, eventsDetails} = collegefacility;
     return (
         <div className="py-24">
             <div className="card w-1/2 mx-auto bg-base-100 shadow-xl">

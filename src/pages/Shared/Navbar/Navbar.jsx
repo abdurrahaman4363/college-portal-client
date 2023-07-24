@@ -16,7 +16,7 @@ const Navbar = () => {
         <li className="font-bold uppercase"><Link to="/">Home</Link></li>
         <li className="font-bold uppercase"><Link to="/college">Colleges</Link></li>
         <li className="font-bold uppercase"><Link to="/admission">Admission</Link></li>
-        <li className="font-bold uppercase"><Link to="/">My College</Link></li>
+        <li className="font-bold uppercase"><Link to="/mycollege">My College</Link></li>
     </>
   return (
     <div className="fixed z-10 bg-opacity-30 bg-black navbar text-white max-w-6xl">

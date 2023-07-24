@@ -6,11 +6,11 @@ import Swal from "sweetalert2";
 
 const AdmissionForm = () => {
     const college = useLoaderData();
+    const {collegeImage, collegeName, researchHistory, rating, review} = college;
     const {user} = useContext(UserContext);
     const handlerAddAddmission = (event) => {
         event.preventDefault();
         const form = event.target;
-        const collegeName = form.collegeName.value;
         const candidateName = form.candidateName.value;
         const subject = form.subject.value;
         const group = form.group.value;
@@ -22,6 +22,10 @@ const AdmissionForm = () => {
 
         const newAdmission = {
             collegeName,
+            collegeImage,
+            researchHistory,
+            rating,
+            review,
             candidateName,
             subject,
             group,
@@ -29,8 +33,10 @@ const AdmissionForm = () => {
             email,
             dateOfBirth,
             address,
-            photo
+            photo,
+
         }
+        console.log(newAdmission);
 
         Swal.fire({
             title: 'Are you sure?',
@@ -68,7 +74,7 @@ const AdmissionForm = () => {
         <div className="hero p-24  bg-base-200 ">
     <div className="card w-3/4 mx-auto  shadow-2xl bg-base-100">
       <form onSubmit={handlerAddAddmission}>
-      <h2 className="text-3xl text-rose-500 font-bold text-center pt-6">ADD YOUR FAVOURITE TOY!</h2>
+      <h2 className="text-3xl text-success font-bold text-center pt-6">ADMISSION NOW!</h2>
       <div className="card-body ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="form-control">
@@ -111,7 +117,7 @@ const AdmissionForm = () => {
           <label className="label">
             <span className="label-text">Date Of Birth</span>
           </label>
-          <input type="text" defaultValue="" name="dateOfBirth" placeholder="Date Of Birth" className="input input-bordered" />
+          <input type="text" name="dateOfBirth" placeholder="Date Of Birth" className="input input-bordered" />
             </div>
             <div className="form-control">
           <label className="label">
@@ -124,11 +130,11 @@ const AdmissionForm = () => {
           <label className="label">
             <span className="label-text">Candidate Photo URL</span>
           </label>
-          <input type="text" name="photo" placeholder="Photo URL" className="input input-bordered" />
+          <input type="text" defaultChecked={user?.photoURL} name="photo" placeholder="Photo URL" className="input input-bordered" />
             </div>
 
         <div className="form-control mt-6 ">
-          <input className="btn bg-teal-500 border-none text-white" type="submit" value="Submit" />
+          <input className="btn bg-success border-none text-white" type="submit" value="Submit" />
         </div>
       </div>
       </form>
