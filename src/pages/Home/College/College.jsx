@@ -41,7 +41,7 @@ const College = () => {
         </div>
       </div>
         </div>
-        <div className="grid md:grid-cols-3 gap-4 md:gap-8">
+        <div className="grid md:grid-cols-3 gap-4 md:gap-8 p-2">
           {colleges.slice(0, 6).map((college) => (
             <CollegeCard key={college._id} college={college}></CollegeCard>
           ))}

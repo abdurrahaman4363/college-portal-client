@@ -30,10 +30,11 @@ const YourGoal = () => {
                     <img className="mx-auto w-28 h-16 rounded-full absolute -top-8 left-1/2  -translate-x-1/2" src="https://i.ibb.co/5jbrLX4/join3.webp" alt="Card 1" />
                     <p className="mt-4 text-left font-serif  text-xs md:text-base text-white">Step into a world of advertising innovation that fosters growth. Our platform transforms your products into captivating stories, weaving connections with potential buyers. Ignite curiosity and turn it into a loyal customer base</p>
                 </div>
+
             </div>
             <Link to='/admission'><div className='text-center pt-4 md:pt-8'>
                 <button className="btn btn-success rounded-full text-white font-serif font-semibold ">
-                    Start your business
+                    Start your Career
                 </button>
             </div></Link>
         </div>

@@ -11,7 +11,7 @@ const Contact = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
           viverra lorem sed eros mattis dignissim.
         </p>
-        <div className="flex gap-4 ">
+        <div className="flex gap-2 md:gap-4 ">
           <button className="btn btn-success rounded-full lowercase text-white">
             <FaMailBulk></FaMailBulk>Sakib75@gmail.com
           </button>
@@ -27,26 +27,26 @@ const Contact = () => {
           <FaLinkedin size={30}></FaLinkedin>
         </div>
       </div>
-      <form className="bg-[#052545] py-16 px-12 rounded-lg space-y-4">
+      <form className="bg-[#052545] py-16 px-4 md:px-8 rounded-lg space-y-4">
         <div className="flex gap-6 md:gap-8">
-          <div className="form-control w-full max-w-xs">
+          <div className="form-control w-full">
             <label className="label">
               <span className="label-text text-white font-bold">Your First Name*</span>
             </label>
             <input
               type="text"
               placeholder="First Name"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered w-full"
             />
           </div>
-          <div className="form-control w-full max-w-xs">
+          <div className="form-control w-full ">
             <label className="label">
               <span className="label-text text-white font-bold">Your Last Name*</span>
             </label>
             <input
               type="text"
               placeholder="Last Name"
-              className="input input-bordered w-full max-w-xs"
+              className="input input-bordered w-full"
             />
           </div>
         </div>

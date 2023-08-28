@@ -52,7 +52,7 @@ const router = createBrowserRouter([
         },
         {
           path: '/admissionform/:id',
-          element: <AdmissionForm></AdmissionForm>,
+          element: <PrivateRoute><AdmissionForm></AdmissionForm></PrivateRoute>,
           loader: ({params})=>fetch(`https://college-services-server.vercel.app/college/${params.id}`)
         },
         {
