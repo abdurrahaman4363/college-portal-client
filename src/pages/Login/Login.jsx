@@ -88,7 +88,7 @@ const Login = () => {
         <div className="form-control mt-6">
           <input className="btn bg-teal-400 border-none" type="submit" value="Login" />
         </div>
-        <p className="font-medium text-center"><small>New To Toy Town? <Link to="/register" className="text-rose-500 font-bold">Please Register</Link> </small></p>
+        <p className="font-medium text-center"><small>New To College Portal? <Link to="/register" className="text-rose-500 font-bold">Please Register</Link> </small></p>
         <div className="divider">OR</div>
         <div className="text-center">
         <button onClick={handleGoogleSignIn} className="btn btn-outline btn-accent" style={{width: '90%'}}><FaGoogle style={{width: '2rem', height: '1.5rem'}}></FaGoogle> Login With Google</button>
