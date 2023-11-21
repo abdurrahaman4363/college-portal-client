@@ -29,7 +29,7 @@ const AddFeedback = () => {
       confirmButtonText: "Yes, added it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch("https://college-services-server.vercel.app/feedback", {
+        fetch("http://localhost:5000/feedback", {
           method: "PUT",
           headers: {
             "content-type": "application/json",

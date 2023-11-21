@@ -6,13 +6,13 @@ const College = () => {
   const [colleges, setCollege] = useState([]);
   const [searchText, setSearchText] = useState('');
   useEffect(() => {
-    fetch("https://college-services-server.vercel.app/college")
+    fetch("http://localhost:5000/college")
       .then((res) => res.json())
       .then((data) => setCollege(data));
   }, []);
 
   const handleSearch = () => {
-    fetch(`https://college-services-server.vercel.app/searchcollege/${searchText}`)
+    fetch(`http://localhost:5000/searchcollege/${searchText}`)
     .then((res) => res.json())
     .then(data => {
       setCollege(data);

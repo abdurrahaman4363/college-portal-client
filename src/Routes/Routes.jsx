@@ -39,12 +39,12 @@ const router = createBrowserRouter([
         {
           path: '/collegedetails/:id',
           element: <PrivateRoute><CollegeDetails></CollegeDetails></PrivateRoute>,
-          loader: ({params})=>fetch(`https://college-services-server.vercel.app/college/${params.id}`)
+          loader: ({params})=>fetch(`http://localhost:5000/college/${params.id}`)
         },
         {
           path: '/collegefacility/:id',
           element: <PrivateRoute><CollegeFacility></CollegeFacility></PrivateRoute>,
-          loader: ({params})=>fetch(`https://college-services-server.vercel.app/college/${params.id}`)
+          loader: ({params})=>fetch(`http://localhost:5000/college/${params.id}`)
         },
         {
           path: '/admission',
@@ -53,7 +53,7 @@ const router = createBrowserRouter([
         {
           path: '/admissionform/:id',
           element: <PrivateRoute><AdmissionForm></AdmissionForm></PrivateRoute>,
-          loader: ({params})=>fetch(`https://college-services-server.vercel.app/college/${params.id}`)
+          loader: ({params})=>fetch(`http://localhost:5000/college/${params.id}`)
         },
         {
           path: '/mycollege',

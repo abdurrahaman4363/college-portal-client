@@ -5,7 +5,7 @@ import AllCollegeDisplay from "./AllCollegeDisplay";
 const AllCollege = () => {
     const [colleges, setColleges] = useState([]);
     useEffect( () => {
-        fetch('https://college-services-server.vercel.app/college')
+        fetch('http://localhost:5000/college')
         .then(res => res.json())
         .then(data => setColleges(data))
     },[])

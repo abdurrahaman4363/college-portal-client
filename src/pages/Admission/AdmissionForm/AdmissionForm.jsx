@@ -48,7 +48,7 @@ const AdmissionForm = () => {
             confirmButtonText: 'Yes, added it!'
           }).then((result) => {
             if (result.isConfirmed) {
-            fetch('https://college-services-server.vercel.app/admission', {
+            fetch('http://localhost:5000/admission', {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

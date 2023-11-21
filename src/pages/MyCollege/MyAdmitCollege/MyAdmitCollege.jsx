@@ -7,7 +7,7 @@ const MyAdmitCollege = () => {
     const { user } = useContext(UserContext);
     const [mycolleges, setMyCollege] = useState([]);
     useEffect(() => {
-        fetch(`https://college-services-server.vercel.app/mycollege?email=${user?.email}`)
+        fetch(`http://localhost:5000/mycollege?email=${user?.email}`)
         .then(res => res.json())
         .then(data => setMyCollege(data))
     },[user])
